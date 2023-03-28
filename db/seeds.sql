@@ -3,6 +3,7 @@ VALUES
     ("Marketing"),
     ("Management");
 
+
 INSERT INTO role (title, salary, department_id)
 VALUES
     ("social", 50000, 1),
@@ -12,6 +13,6 @@ VALUES
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ("John", "Smith", 1, 1)
-    ("Jane", "Doe", 2, 2)
-    ("Jimmy", "Hendricks", 3, 2)
+    ("John", "Smith", 1, NULL)
+    ("Jane", "Doe", 2, NULL)
+    ("Jimmy", "Hendricks", 3, NULL)
