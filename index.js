@@ -14,7 +14,7 @@ const db = mysql.createConnection(
   {
       host: 'localhost',
       user: 'root',
-      password: 'Legolas99?',
+      password: //'',
       database: 'tracker_db'
   },
   
